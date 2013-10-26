@@ -25,8 +25,8 @@ I then tried to run `jekyll serve` from the root directory of the jekyll-bootstr
     
 Eventually, trying to run the command as root worked. So I fiddled with permissions on the gems dir and /usr/local/bin/* files but still no joy.
 
-Finally, as user I tried the rvm route I found on (https://www.digitalocean.com/community/articles/how-to-get-started-with-jekyll-on-an-ubuntu-vps)
+Finally, as user I tried the rvm route I found in [this article](https://www.digitalocean.com/community/articles/how-to-get-started-with-jekyll-on-an-ubuntu-vps):
 
     curl -L https://get.rvm.io | bash -s stable --ruby=2.0.0
     
-That did the trick (and I now have Ruby 2.0 - bonus?)
+That did the trick (and I now have a newer Ruby)

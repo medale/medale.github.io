@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Uebercomputing
-tagline: <p>Continuous improvement through project, practices, self</p>
+tagline: Continuous improvement through project, practices, self
 ---
 {% include JB/setup %}
-{% include JB/analytics %}
 
 Just getting started...
     
@@ -21,4 +20,9 @@ Just getting started...
 ### Links
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-
+<h2>About</h2>
+   <ul>
+     <li class="contact">M. Dale: medale at acm.org</li>
+     <li class="github"><a href="http://github.com/medale/" rel="me">github.com/medale</a></li>
+     <li class="twitter"><a href="http://twitter.com/medale94/" rel="me">twitter.com/medale94</a></li>
+   </ul>

@@ -23,6 +23,7 @@ Just getting started...
 
 ### Links
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+* [Links Repo](/links.html)
 
 <h2>About</h2>
    <ul>

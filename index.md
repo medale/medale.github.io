@@ -28,5 +28,6 @@ Just getting started...
    <ul>
      <li class="contact">Markus Dale: medale at acm.org</li>
      <li class="github"><a href="http://github.com/medale/" rel="me">github.com/medale</a></li>
+     <li class="linkedin"><a href="http://www.linkedin.com/in/medale94" rel="me">http://www.linkedin.com/in/medale94</a></li>
      <li class="twitter"><a href="http://twitter.com/medale94/" rel="me">twitter.com/medale94</a></li>
    </ul>

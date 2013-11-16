@@ -22,8 +22,9 @@ Just getting started...
 * [WhyMi - An Android-based survey tool created as part of the Americas Datafest DC by the awesome AppNewbs](https://github.com/medale/WhyMi)
 
 ### Links
-* [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+* [Data Science Research](/dataScience.html)
 * [Links Repo](/links.html)
+* [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 <h2>About</h2>
    <ul>

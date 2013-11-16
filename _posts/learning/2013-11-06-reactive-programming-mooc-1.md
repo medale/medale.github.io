@@ -3,7 +3,7 @@ layout: post
 title: "Reactive Programming MOOC 1"
 description: "First impressions on Martin Odersky's Reactive Programming MOOC on Coursera"
 category: "learning"
-tags: ["learning", "mooc", "programming", "functional"]
+tags: ["learning", "mooc", "programming", "functional","coursera-reactive-programming"]
 ---
 {% include JB/setup %}
 

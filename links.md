@@ -14,6 +14,10 @@ tagline: Continuous improvement through project, practices, self
 ### Alternative Processing Models on Hadoop
 * [Apache Hama](http://hama.apache.org/)
 
+## SQL on Hadoop
+* [Facebook Presto - SQL on Hadoop](http://gigaom.com/2013/11/06/facebook-open-sources-its-sql-on-hadoop-engine-and-the-web-rejoices/)
+* [Presto DB](http://prestodb.io/)
+
 ## Messaging
 * [Apache Kafka](http://kafka.apache.org/)
 
@@ -43,6 +47,7 @@ tagline: Continuous improvement through project, practices, self
 
 # Miscellaneous
 * [My links at delicious](https://delicious.com/medale94)
+* [Dunning-Kruger effect - incompentents overestimate their abilities](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 
 <h6>About</h6>
    <ul>

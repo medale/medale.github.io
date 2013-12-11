@@ -11,6 +11,8 @@ tagline: Continuous improvement through project, practices, self
 
 # Data Sets
 * [City of Chicago](https://data.cityofchicago.org/)
+* [Montgomery County, MD](https://data.montgomerycountymd.gov/)
+    * [Montgomery County Innovation Lab](https://data.montgomerycountymd.gov/)
 
 # Learning/Networking
 * [Data Science MD meetup](http://www.meetup.com/Data-Science-MD/)

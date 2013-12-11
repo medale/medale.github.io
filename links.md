@@ -26,14 +26,17 @@ tagline: Continuous improvement through project, practices, self
 
 ## Data Sets
 * [City of Chicago](https://data.cityofchicago.org/)
+* [Montgomery County, MD](https://data.montgomerycountymd.gov/)
+    * [Montgomery County Innovation Lab](https://data.montgomerycountymd.gov/)
 
 ## Learning
 * [Open Data group tutorials](http://tutorials.opendatagroup.com/)
 * [Udacity - Intro to Hadoop](https://www.udacity.com/course/ud617)
 * [MD Data Science meetup](http://www.meetup.com/Data-Science-MD/)
 
-## Tools
+# Python
 * [iPython Notebook](http://ipython.org/)
+* [PyData conference videos](http://vimeo.com/pydata/)
 
 # Scala
 
@@ -42,12 +45,16 @@ tagline: Continuous improvement through project, practices, self
 
 # Algorithms
 
+## Content Extraction
+* [Apache Tika](http://tika.apache.org/)
+
 ## Graph Algorithms
 * [Kurzweil overview of graph approaches](http://www.kurzweilai.net/a-simplified-graphical-approach-to-machine-learning)
 
 # Miscellaneous
 * [My links at delicious](https://delicious.com/medale94)
 * [Dunning-Kruger effect - incompentents overestimate their abilities](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+* [German IT, developer news](http://www.heise.de/)
 
 <h6>About</h6>
    <ul>

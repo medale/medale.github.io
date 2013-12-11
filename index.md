@@ -26,10 +26,10 @@ Just getting started...
 * [Links Repo](/links.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-<h2>About</h2>
-   <ul>
-     <li class="contact">Markus Dale: medale at acm.org</li>
-     <li class="github"><a href="http://github.com/medale/" rel="me">github.com/medale</a></li>
-     <li class="linkedin"><a href="http://www.linkedin.com/in/medale94" rel="me">http://www.linkedin.com/in/medale94</a></li>
-     <li class="twitter"><a href="http://twitter.com/medale94/" rel="me">twitter.com/medale94</a></li>
-   </ul>
+#### About Markus
+
+* Email: medale at acm.org
+* Resume: [MarkusDale.pdf](/MarkusDale.pdf)
+* [Github - medale](http://github.com/medale/)
+* [LinkedIn - medale94](http://www.linkedin.com/in/medale94)
+* [Twitter - medale94](http://twitter.com/medale94)

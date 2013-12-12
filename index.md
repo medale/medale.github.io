@@ -24,6 +24,8 @@ Just getting started...
 ### Links
 * [Data Science Research](/dataScience.html)
 * [Links Repo](/links.html)
+* [Memory Pad](/memory.html)
+* [Musik](/musik/musik.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 #### About Markus

@@ -7,7 +7,7 @@ tags: [general, books, kindle]
 ---
 {% include JB/setup %}
 
-Last year I bought my mother, a native German, an Amazon Kindle. She is over 85 years old and the Kindle Paperwhite
+Last year I bought my mother, a native German, an Amazon Kindle. My mother is over 85 years old and the Kindle Paperwhite
 allows her to adjust font size, is very lightweight and has long battery life. Luckily, Amazon
 has many German language Kindle titles but finding them via the Amazon.com (US) website seems
 not as easy as it could be. Enter Google.

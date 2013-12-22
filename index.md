@@ -31,7 +31,7 @@ Just getting started...
 #### About Markus
 
 * Email: medale at acm.org
-* Resume: [MarkusDale.pdf](/MarkusDale.pdf)
+* Resume: [Markus Dale (Dec 2013)](/MarkusDale.html)
 * [Github - medale](http://github.com/medale/)
 * [LinkedIn - medale94](http://www.linkedin.com/in/medale94)
 * [Twitter - medale94](http://twitter.com/medale94)

@@ -12,10 +12,10 @@ Instructions are as of December 11th, 2013 against a Wordpress 3.7.1 instance. M
 access to Wordpress database using mysql.
 
 # Background
-A family friend has been using Wordpress to host his Yoga website. The site has been repeatedly attacked by hackers who got
-inside Wordpress to and started hosting spam HTML pages on his site. I didn't know that much about Wordpress so we cleaned
+A family friend has been using Wordpress to host his Yoga website. The site had been repeatedly attacked by hackers who got
+inside Wordpress and started hosting spam HTML pages on his site. I didn't know that much about Wordpress so we cleaned
 it up repeatedly and they came back repeatedly. Finally, we really started to clamp down on security using the ever-evolving
-Exsiter backup and digital fingerprinting to pinpoint changes (see [Jexsiter at Github](https://github.com/medale/JexSiter/)).
+Exsiter backup and its digital fingerprinting/md5 hashes to pinpoint changes (see [Jexsiter at Github](https://github.com/medale/JexSiter/)).
 
 It seems we got ahead of the hackers and their botnet scripts for now so we wanted to further harden the site. One way was to
 change the Wordpress database table prefixes from wp_ to something else (example here is b42_). We followed the procedures 
@@ -89,10 +89,10 @@ $table_prefix  = 'b42_';
 After making those table prefix changes you cannot log in to the Wordpress via wp-login.php due to insufficient permissions
 and would probably see the following when trying:
    
-   You do not have sufficient permissions to access this page
+    You do not have sufficient permissions to access this page
    
 This is due to security pointing to the old wp_ table prefixes and we need to change that in the database itself. For us
-(giving our plugins - again see the [wpbeginner.com change database prefix instructions](http://www.wpbeginner.com/wp-tutorials/how-to-change-the-wordpress-database-prefix-to-improve-security/) for details - that meant the following
+(given our plugins - again see the [wpbeginner.com change database prefix instructions](http://www.wpbeginner.com/wp-tutorials/how-to-change-the-wordpress-database-prefix-to-improve-security/) for details - that meant the following
 changes). Also see [Wordpress Support on insufficient permissions](http://wordpress.org/support/topic/wp-admin-you-do-not-have-sufficient-permissions-to-access-this-page) for exact entries.
 
 ### Log in to Mysql command line
@@ -107,11 +107,11 @@ changes). Also see [Wordpress Support on insufficient permissions](http://wordpr
 
 Note: With multiple accounts for Wordpress you might have multiple rows of the entries below. The update statements will fix all rows.
 
-    update bikramyoga.a42_usermeta set meta_key = 'a42_capabilities' where meta_key = 'wp_capabilities';
-    update bikramyoga.a42_usermeta set meta_key = 'a42_user_level' where meta_key = 'wp_user_level';
-    update bikramyoga.a42_usermeta set meta_key = 'a42_user-settings' where meta_key = 'wp_user-settings';
-    update bikramyoga.a42_usermeta set meta_key = 'a42_user-settings-time' where meta_key = 'wp_user-settings-time';
-    update bikramyoga.a42_usermeta set meta_key = 'a42_dashboard_quick_press_last_post_id' where meta_key = 'wp_dashboard_quick_press_last_post_id';
+    update bikramyoga.b42_usermeta set meta_key = 'b42_capabilities' where meta_key = 'wp_capabilities';
+    update bikramyoga.b42_usermeta set meta_key = 'b42_user_level' where meta_key = 'wp_user_level';
+    update bikramyoga.b42_usermeta set meta_key = 'b42_user-settings' where meta_key = 'wp_user-settings';
+    update bikramyoga.b42_usermeta set meta_key = 'b42_user-settings-time' where meta_key = 'wp_user-settings-time';
+    update bikramyoga.b42_usermeta set meta_key = 'b42_dashboard_quick_press_last_post_id' where meta_key = 'wp_dashboard_quick_press_last_post_id';
     
 ### Log in to ensure everything works
 Once all the changes above are made. Log in via web to your Wordpress Admin console and test your site by viewing your Wordpress pages!

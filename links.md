@@ -52,6 +52,7 @@ tagline: Continuous improvement through project, practices, self
 * [Kurzweil overview of graph approaches](http://www.kurzweilai.net/a-simplified-graphical-approach-to-machine-learning)
 
 # Miscellaneous
+* [Javascript, HTML, CSS experiments](http://jsfiddle.net/)
 * [My links at delicious](https://delicious.com/medale94)
 * [Dunning-Kruger effect - incompentents overestimate their abilities](http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 * [German IT, developer news](http://www.heise.de/)

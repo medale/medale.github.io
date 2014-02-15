@@ -23,6 +23,7 @@ Just getting started...
 
 ### Links
 * [Data Science Research](/dataScience.html)
+* [Linux Commands](/linuxCommands.html)
 * [Links Repo](/links.html)
 * [Memory Pad](/memory.html)
 * [Musik](/musik/musik.html)

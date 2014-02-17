@@ -36,4 +36,11 @@ tags: [android, linux, setup]
     # test installation after logging out/in
     sudo virsh -c qemu:///system list
     
-    To Be Continued - using acceleration to create Android Emulator...
+# Installing x86 Intel Atom 
+
+Only Intel Atom-based emulated phones benefit from the accelerator. But when setting up a new emulator,
+Intel Atom wasn't one of my CPU/ABI choices. So I needed to install that via the Android SDK manager (the
+half Android/half download arrow icon next to the Android Virtual Device Manager icon).
+
+* For whatever version, select Intel x86 Atom System Image and install
+

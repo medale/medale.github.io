@@ -16,4 +16,11 @@ tagline: Useful Linux commands
     Description:	Ubuntu 13.10
     Release:	13.10
     Codename:	saucy
+    
+# Network
+
+## Determine other machines on same local subnet
+
+    >/sbin/ifconfig - shows Bcast address, e.g. 192.168.1.255
+    >ping -b 192.168.1.255 - shows other machines on local subnet
 

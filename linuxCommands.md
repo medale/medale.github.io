@@ -16,6 +16,14 @@ tagline: Useful Linux commands
     Description:	Ubuntu 13.10
     Release:	13.10
     Codename:	saucy
+    > cat /etc/*-release
+    DISTRIB_ID=Ubuntu
+    DISTRIB_RELEASE=13.10
+    DISTRIB_CODENAME=saucy
+    DISTRIB_DESCRIPTION="Ubuntu 13.10"
+    NAME="Ubuntu"
+    VERSION="13.10, Saucy Salamander"
+    ...
     
 # Network
 

@@ -2,8 +2,8 @@
 layout: post
 title: "Functional Programming In Scala MOOC 1"
 description: "First impressions on Martin Odersky's Functional Programming In Scala on Coursera"
-category: "learning"
-tags: ["learning", "mooc", "programming", "functional", "scala", "coursera-functional-programming"]
+category: "scala"
+tags: ["learning", "mooc", "programming", "functional", "scala", "coursera-functional-programming", "spark"]
 ---
 {% include JB/setup %}
 

@@ -17,30 +17,26 @@ install.
 
 # Running zinc
 
-```
-cd $ZINC_DIR/bin
-./zinc -scala-home /usr/local/scala-2.10.4 -start
-./zinc -status       #After compilation shows cached setup
-./zinc -shutdown
-```
+    cd $ZINC_DIR/bin
+    ./zinc -scala-home /usr/local/scala-2.10.4 -start
+    ./zinc -status       #After compilation shows cached setup
+    ./zinc -shutdown
+
 
 # Enable Zinc from scala-maven-plugin
  
- 
-```xml
-<plugin>
-   <groupId>net.alchim31.maven</groupId>
-   <artifactId>scala-maven-plugin</artifactId>
-   <version>3.2.0</version>
-   <executions>
-	...
-   </executions>
-   <configuration>
-      <scalaVersion>${scala.version}</scalaVersion>
-      <recompileMode>incremental</recompileMode>
-      <useZincServer>true</useZincServer>
-	...
-```
+     <plugin>
+       <groupId>net.alchim31.maven</groupId>
+       <artifactId>scala-maven-plugin</artifactId>
+       <version>3.2.0</version>
+       <executions>
+	    ...
+       </executions>
+       <configuration>
+          <scalaVersion>${scala.version}</scalaVersion>
+          <recompileMode>incremental</recompileMode>
+          <useZincServer>true</useZincServer>
+	    ...
 		
 # Resources
 * [Typesafe Zinc GitHub](https://github.com/typesafehub/zinc)

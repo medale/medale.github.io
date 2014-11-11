@@ -16,13 +16,16 @@ Follow the link on the Zinc GitHub page to download latest stable version and
 install.
 
 # Running zinc
-```bash 
+
+```
 cd $ZINC_DIR/bin
 ./zinc -scala-home /usr/local/scala-2.10.4 -start
 ./zinc -status       #After compilation shows cached setup
 ./zinc -shutdown
 ```
+
 # Enable Zinc from scala-maven-plugin
+ 
  
 ```xml
 <plugin>

@@ -24,10 +24,10 @@ Just getting started...
 </ul>
 
 ## Some of my Github Projects
-* [Jexsiter - md5hash of ssl directory with Git-backed local backups](https://github.com/medale/JexSiter)
+* [Spark Mail - Tutorial for using Spark to process Enron Email dataset (in progress)](https://github.com/medale/spark-mail)
+* [Jexsiter - md5hash of ssl directories with Git-backed local backups](https://github.com/medale/JexSiter)
 * [Scala Sampler - exploring Scala after completing Martin Odersky's Functional Programming MOOC at Coursera](https://github.com/medale/scala-sampler)
 * [ANTLR4 - Learned more about the power of Terence Parr's great parser generator tool](https://github.com/medale/antlr4-experiments)
-* [WhyMi - An Android-based survey tool created as part of the Americas Datafest DC by the awesome AppNewbs](https://github.com/medale/WhyMi)
 
 ### Links
 * [Data Science Research](/dataScience.html)
@@ -40,7 +40,7 @@ Just getting started...
 #### About Markus
 
 * Email: medale at acm.org
-* Resume: [Markus Dale (Dec 2013)](/MarkusDale.html)
+* Resume: [Markus Dale (Nov 2014)](/MarkusDale.html)
 * [Github - medale](http://github.com/medale/)
 * [LinkedIn - medale94](http://www.linkedin.com/in/medale94)
 * [Twitter - medale94](http://twitter.com/medale94)

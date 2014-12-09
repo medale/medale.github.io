@@ -32,7 +32,30 @@ investigation was to duplicate what had been alluded to in the email and use Spa
 ## xml_split processing
 * On my Ubuntu I needed to install xml_split:
     > sudo apt-get install xml-twig-tools
-    
+
+Assuming data dump to $WIKIHOME:
+    > cd $WIKIHOME
+    > bunzip2 enwiki-20140203-pages-articles.xml.bz2
+    > xml_split enwiki-20140203-pages-articles.xml
+
+This created 1833602 split files (little .xml files) in addition to the 
+enwiki-20140203-pages-articles.xml.
+
+### Some of the sample files created
+```
+enwiki-20140203-pages-articles-283772.xml   enwiki-20140203-pages-articles-1235137.xml
+enwiki-20140203-pages-articles-1777752.xml  enwiki-20140203-pages-articles-353791.xml
+enwiki-20140203-pages-articles-654270.xml   enwiki-20140203-pages-articles-304501.xml
+enwiki-20140203-pages-articles-183201.xml   enwiki-20140203-pages-articles-189092.xml
+enwiki-20140203-pages-articles-335676.xml   enwiki-20140203-pages-articles-1824038.xml
+enwiki-20140203-pages-articles-1336335.xml  enwiki-20140203-pages-articles-1575838.xml
+enwiki-20140203-pages-articles-347204.xml   enwiki-20140203-pages-articles-1206186.xml
+enwiki-20140203-pages-articles-1134170.xml  enwiki-20140203-pages-articles-689668.xml
+enwiki-20140203-pages-articles-439645.xml   enwiki-20140203-pages-articles-1311058.xml
+enwiki-20140203-pages-articles-920248.xml   enwiki-20140203-pages-articles-823620.xml
+enwiki-20140203-pages-articles-1524113.xml  enwiki-20140203-pages-articles-596755.xml
+enwiki-20140203-pages-articles-109698.xml   enwiki-20140203-pages-articles-1663636.xml
+```
 
 # Resources
 * [The Spark User message that kicked off this investigation](https://www.mail-archive.com/user@spark.apache.org/msg15776.html)

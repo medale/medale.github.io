@@ -30,6 +30,7 @@ Just getting started...
 * [ANTLR4 - Learned more about the power of Terence Parr's great parser generator tool](https://github.com/medale/antlr4-experiments)
 
 ### Links
+* [Apache Spark Nuggets](/spark.html)
 * [Data Science Research](/dataScience.html)
 * [Linux Commands](/linuxCommands.html)
 * [Links Repo](/links.html)

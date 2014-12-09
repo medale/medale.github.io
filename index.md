@@ -37,11 +37,3 @@ Just getting started...
 * [Memory Pad](/memory.html)
 * [Musik](/musik/musik.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-#### About Markus
-
-* Email: medale at acm.org
-* Resume: [Markus Dale (Nov 2014)](/MarkusDale.html)
-* [Github - medale](http://github.com/medale/)
-* [LinkedIn - medale94](http://www.linkedin.com/in/medale94)
-* [Twitter - medale94](http://twitter.com/medale94)

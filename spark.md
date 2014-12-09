@@ -39,7 +39,7 @@ Enter paste mode
 
 # Code Snippets
 
-```scala
+```Scala
  val recordsKeyValues = sc.newAPIHadoopRDD(conf.getConfiguration,
         classOf[AvroKeyInputFormat[MailRecord]],
         classOf[AvroKey[MailRecord]],

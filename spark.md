@@ -35,3 +35,13 @@ Enter paste mode
 ## Scala - rename import
 
     import org.apache.spark.mllib.linalg.{Vector => SparkVector}
+
+
+# Code Snippets
+
+```scala
+ val recordsKeyValues = sc.newAPIHadoopRDD(conf.getConfiguration,
+        classOf[AvroKeyInputFormat[MailRecord]],
+        classOf[AvroKey[MailRecord]],
+        classOf[NullWritable])
+```

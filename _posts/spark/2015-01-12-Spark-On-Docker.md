@@ -16,11 +16,13 @@ tags: ["spark","docker"]
 * https://github.com/sequenceiq/docker-spark
 
 
+## Commands:
+
     sudo docker pull sequenceiq/spark:1.2.0
     sudo docker run -i -t -h sandbox sequenceiq/spark:1.2.0 /etc/bootstrap.sh -bash
 
-    # -v Mount host /opt/rpm1 on image /opt/rpm1
-    # -P map image ports to host port (see docker ps -l for mapping)
+    -v Mount host /opt/rpm1 on image /opt/rpm1
+    -P map image ports to host port (see docker ps -l for mapping)
     docker run -v /opt/rpm1:/opt/rpm1 -P -i -t -h sandbox sequenceiq/spark:1.2.0 /etc/bootstrap.sh -bash
 
 # Useful Docker Commands

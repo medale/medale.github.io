@@ -8,6 +8,7 @@ tags: ["spark","docker"]
 {% include JB/setup %}
 
 # Installing Docker on Ubuntu
+
 * [Docker on Ubunutu](https://docs.docker.com/installation/ubuntulinux/)
 
 # Running Spark 1.2 Docker

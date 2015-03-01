@@ -19,7 +19,10 @@ and provided all the ETL to put the text-based CMU Enron email set into Avro
 along with some utilties to make it easy to explore from spark-shell.
 
 As part of this, I also wanted to try out my code on the AWS cluster but did 
-not know how much it would cost to run. So I decided to just try it out.
+not know how much it would cost to run. Estimates were available at
+on [Amazon's EMR pricing](http://aws.amazon.com/elasticmapreduce/pricing/), which
+seemed very reasonable. Instance types were described on the [EC2 instance types page](http://aws.amazon.com/ec2/instance-types/).
+So I decided to just try it out.
 
 First, I installed the AWS CLI following the [Amazon CLI instructions](http://aws.amazon.com/cli/)
 with Python 2.6.5 or higher:
@@ -45,6 +48,10 @@ hours). The total cost for this was $5.55 broken out as:
 * 120 normalized instance hours
 * Instance type: m3.xlarge
 
+This data was gathered from:
+* [AWS Console Billing - Bills](https://console.aws.amazon.com/billing/) - actual costs
+* [AWS Console EMR](https://console.aws.amazon.com/elasticmapreduce) - actual runtime/size of clusters
+
 # EMR AMI versions
 
 The key line in the demo.sh script for cluster creation is:
@@ -58,3 +65,15 @@ So we were running on Hadoop 2.4.0.
 
 Bottom line: AWS EMR and CLI are great utilities to launch a Spark cluster
 on demand!
+
+# Background on AWS setup
+* Create [IAM user](https://console.aws.amazon.com/iam) for access keys
+
+Enter access key id, secret access key when prompted or create aws-env.sh and
+source that before running the demo.sh script:
+
+    export AWS_ACCESS_KEY_ID=keyId
+    export AWS_SECRET_ACCESS_KEY=secretAccessKey (longer than key id)
+    export AWS_DEFAULT_REGION=us-east-1
+    
+ 

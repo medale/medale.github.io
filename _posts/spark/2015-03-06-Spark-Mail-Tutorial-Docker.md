@@ -7,7 +7,7 @@ tags: ["spark","docker", "tutorial"]
 ---
 {% include JB/setup %}
 
-See [medale Spark mail docker github](https://github.com/medale/spark-mail-docker)
+See [medale spark-mail-docker github repo](https://github.com/medale/spark-mail-docker)
 
 # Installing Docker
 

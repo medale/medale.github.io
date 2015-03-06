@@ -32,11 +32,13 @@ See [medale spark-mail-docker github repo](https://github.com/medale/spark-mail-
 * bash - then run bash (login as root)
 
 
-    sudo docker run -P -i -t -h sandbox medale/spark-mail-docker:v1.2.1 /etc/bootstrap.sh bash
+
+        sudo docker run -P -i -t -h sandbox medale/spark-mail-docker:v1.2.1 /etc/bootstrap.sh bash
 
 
 ## Mounting a share drive to the image
-* -v Mount host /opt/rpm1 on image /opt/rpm1 (share files between image and host)
+
+-v Mount host /opt/rpm1 on image /opt/rpm1 (share files between image and host)
 
 
     sudo docker run -v /opt/rpm1:/opt/rpm1 -P -i -t -h sandbox medale/spark-mail-docker:v1.2.1 /etc/bootstrap.sh bash

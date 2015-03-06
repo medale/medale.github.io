@@ -33,7 +33,7 @@ See [medale spark-mail-docker github repo](https://github.com/medale/spark-mail-
 
 
 
-        sudo docker run -P -i -t -h sandbox medale/spark-mail-docker:v1.2.1 /etc/bootstrap.sh bash
+    sudo docker run -P -i -t -h sandbox medale/spark-mail-docker:v1.2.1 /etc/bootstrap.sh bash
 
 
 ## Mounting a share drive to the image

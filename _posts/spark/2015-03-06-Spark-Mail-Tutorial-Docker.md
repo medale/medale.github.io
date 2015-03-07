@@ -77,7 +77,7 @@ Running the image with the bash command brings you to a shell prompt as root:
 
 # Analytic 1
 
-
+{% highlight scala %}
     scala>:paste
     import org.apache.spark.SparkContext._
     import org.apache.spark.rdd._
@@ -91,7 +91,7 @@ Running the image with the bash command brings you to a shell prompt as root:
     val d = recordsRdd.filter(record => record.getFrom == "dortha.gray@enron.com")
     d.count
     > resN: Long = 8
-
+{% endhighlight %}
 
 # Accessing Spark Web UI
 

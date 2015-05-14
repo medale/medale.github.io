@@ -32,14 +32,13 @@ I selected the following tools:
 At first, I used Shutter to take screenshots of each slide but realized
 quickly that some automation was needed. [This AskUbuntu answer](pdf.txt:http://askubuntu.com/questions/50170/how-to-convert-pdf-to-image/50180#50180) provided the solution:
 
-```bash
-
+{% highlight bash %}
 sudo apt-get install poppler-utils
 pdftoppm -rx 300 -ry 300 -png presentation.pdf prefix
-
-```
+{% endhighlight %}
 
 ## OpenShot
+
 1. Added the original mpeg recording to Project files/video
 1. Created a title (this became Track 1)
 1. Added the mpeg (Track 2) right after the title
@@ -49,6 +48,7 @@ pdftoppm -rx 300 -ry 300 -png presentation.pdf prefix
 1. Use audio from the mpeg recording
 
 Once done:
+
 1. File - Export Video - Profile Web
 1. Target: YouTube-HD
 1. Video Profile: HD 720p 25fps

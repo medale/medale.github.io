@@ -42,6 +42,7 @@ tagline: Continuous improvement through project, practices, self
 
 ## General
 * [Twitter Scala School](http://twitter.github.io/scala_school/)
+* [Udemy Scala Tutorial](https://blog.udemy.com/scala-tutorial-getting-started-with-scala/)
 
 # Algorithms
 

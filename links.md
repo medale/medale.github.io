@@ -32,6 +32,9 @@ tagline: Continuous improvement through project, practices, self
 ## Learning
 * [Open Data group tutorials](http://tutorials.opendatagroup.com/)
 * [Udacity - Intro to Hadoop](https://www.udacity.com/course/ud617)
+* [EdX](https://www.edx.org/)
+* [Coursera](https://www.coursera.org/)
+* [Udemy](https://www.udemy.com/)
 * [MD Data Science meetup](http://www.meetup.com/Data-Science-MD/)
 
 # Python
@@ -43,6 +46,7 @@ tagline: Continuous improvement through project, practices, self
 ## General
 * [Twitter Scala School](http://twitter.github.io/scala_school/)
 * [Udemy Scala Tutorial](https://blog.udemy.com/scala-tutorial-getting-started-with-scala/)
+* [Baltimore Scala Meetup](http://www.meetup.com/Baltimore-Scala/)
 
 # Algorithms
 

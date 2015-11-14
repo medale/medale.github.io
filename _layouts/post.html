@@ -21,14 +21,15 @@ layout: default
 <div class="container">
   <div id="post">
     <header class="post-header">
-      <h2 title="{{ page.title }}">{{ page.title }}</h2>
-      <span class="post-meta">
+      <img src="/img/caveman.jpg" alt="Uebercomputing Caveman Logo" style="width:50px;height:50px;border:1;">
+      <h2 style="display: inline-block" title="{{ page.title }}">{{ page.title }}</h2>
+      <div class="post-meta">
         <span class="post-date">
           {{ page.date | date: "%-d %b %Y" | upcase }}
         </span>
         •
         {% include read_time.html %}
-      </span>
+      </div>
 
     </header>
 

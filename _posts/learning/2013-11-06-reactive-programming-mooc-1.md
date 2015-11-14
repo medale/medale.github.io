@@ -5,7 +5,6 @@ description: "First impressions on Martin Odersky's Reactive Programming MOOC on
 category: "learning"
 tags: ["learning", "mooc", "programming", "functional","coursera-reactive-programming"]
 ---
-{% include JB/setup %}
 
 After taking [Martin Odersky's Functional Programming in Scala class from Coursera](https://www.coursera.org/course/progfun) last year
 I was looking forward to this follow-on class entitled [Principles of Reactive Programming](https://www.coursera.org/course/reactive) that

@@ -5,7 +5,6 @@ description: "Finding German kindle books on Amazon.com (US)"
 category: "general"
 tags: [general, books, kindle]
 ---
-{% include JB/setup %}
 
 Last year I bought my mother, a native German, an Amazon Kindle. My mother is over 85 years old and the Kindle Paperwhite
 allows her to adjust font size, is very lightweight and has long battery life. Luckily, Amazon

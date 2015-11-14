@@ -5,7 +5,6 @@ description: "Download all dependencies to a local repository/offline"
 category: "maven"
 tags: ["maven","build"]
 ---
-{% include JB/setup %}
 
 # Useful Maven Commands for offline dependencies
 

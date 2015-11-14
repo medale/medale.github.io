@@ -5,7 +5,6 @@ description: "Impressions from the O'Reilly Strata/Hadoop World conference"
 category: "hadoop"
 tags: [hadoop,conference,learning,networking,spark]
 ---
-{% include JB/setup %}
 [O'Reilly's Strata/Hadoop World NYC 2014 Conference](http://strataconf.com/stratany2014/), just like its predecessors, 
 was a good learning and networking opportunity. Even at its new location, the NYC Javits Center,
 the conference sold out with over 5,500 attendees. So it is now a big conference.

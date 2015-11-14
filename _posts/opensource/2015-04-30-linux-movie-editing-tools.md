@@ -5,7 +5,6 @@ description: "Posting a presentation to YouTube - Linux tools that help"
 category: "opensource"
 tags: [linux, movie, youtube]
 ---
-{% include JB/setup %}
 
 # Background
 On April 22nd, 2015, I had the privilege of giving a presentation on

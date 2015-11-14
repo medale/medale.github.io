@@ -3,10 +3,6 @@ layout: page
 title: Uebercomputing
 tagline: Continuous improvement through project, practices, self
 ---
-{% include JB/setup %}
-
-Just getting started...
-
 ## Thoughts, observations and other somewhat random phenomena
 
 <ul class="posts">

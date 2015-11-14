@@ -5,7 +5,6 @@ description: "How to process Wikipedia XML dump using Spark"
 category: "scala"
 tags: ["spark","programming", "scala", "wikipedia"]
 ---
-{% include JB/setup %}
 
 # How this investigation started...
 As a subscriber to the user/dev@spark.apache.org mailing lists I try to keep up

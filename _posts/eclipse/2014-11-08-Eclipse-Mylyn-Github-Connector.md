@@ -5,7 +5,6 @@ description: "Connecting Eclipse to GitHub Issues"
 category: "eclipse"
 tags: ["eclipse","luna","github", "mylyn"]
 ---
-{% include JB/setup %}
 # Eclipse Mylyn
 
 The Eclipse Mylyn plugin provides task-centric display/artifact management.

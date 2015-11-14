@@ -5,7 +5,6 @@ description: "Running Spark on AWS"
 category: "spark"
 tags: ["spark","aws", "emr"]
 ---
-{% include JB/setup %}
 
 # Spark Demo on AWS
 

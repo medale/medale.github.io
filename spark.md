@@ -3,7 +3,6 @@ layout: page
 title: Spark Nuggets
 tagline: Continuous improvement through project, practices, self
 ---
-{% include JB/setup %}
 
 # REPL
 

@@ -5,7 +5,6 @@ description: "How to run Spark on Docker"
 category: "spark"
 tags: ["spark","docker"]
 ---
-{% include JB/setup %}
 
 # Installing Docker on Ubuntu
 

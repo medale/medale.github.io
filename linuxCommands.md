@@ -3,7 +3,6 @@ layout: page
 title: Linux Command Goodies
 tagline: Useful Linux commands
 ---
-{% include JB/setup %}
 
 # Exploring Hardware Environment
 

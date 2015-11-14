@@ -5,7 +5,6 @@ description: "Presentation to the Baltimore Hadoop User Meetup Group"
 category: "spark"
 tags: ["spark","docker", "presentation", "meetup"]
 ---
-{% include JB/setup %}
 
 On April 22nd, 2015, I had the privilege of giving a presentation on
 "Adding Spark to Your Hadoop" to the [Baltimore Hadoop User Meetup Group](http://www.meetup.com/Baltimore-Hadoop-User-Group/events/221583743/)

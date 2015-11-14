@@ -5,7 +5,6 @@ description: "Automation of step-by-step instructions on how to change Wordpress
 category: "security"
 tags: [beginner, wordpress, security, tools]
 ---
-{% include JB/setup %}
 
 # Applicability of Instructions
 Instructions are as of December 11th, 2013 against a Wordpress 3.7.1 instance. Must have ability for command-line

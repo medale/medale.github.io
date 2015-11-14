@@ -3,7 +3,6 @@ layout: page
 title: Memory Pad
 tagline: Continuous improvement through project, practices, self
 ---
-{% include JB/setup %}
 
 # German Kindle Ebooks
 Follow [these instructions from ebookfriendly.com](http://ebookfriendly.com/how-to-find-non-english-books-at-kindle-store/).

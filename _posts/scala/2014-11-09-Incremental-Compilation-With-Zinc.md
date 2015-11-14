@@ -5,7 +5,6 @@ description: "How to use Zinc to increase compilation speed for Scala"
 category: "scala"
 tags: ["programming", "scala", "sbt", "maven"]
 ---
-{% include JB/setup %}
 
 # What is Zinc
 Zinc is a standalone version of the [incremental compiler for sbt GitHub page](https://github.com/typesafehub/zinc). 

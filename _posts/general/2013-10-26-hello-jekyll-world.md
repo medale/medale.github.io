@@ -5,7 +5,6 @@ description: "Getting Jekyll and Jekyll Bootstrap up and running"
 category: "general"
 tags: [test, general, beginner, jekyll]
 ---
-{% include JB/setup %}
 
 [Jekyll](http://jekyllrb.com/) and [Jekyll Bootstrap](http://jekyllbootstrap.com) are an excellent way
 to get a website with blog entries published under your Github repo. Here are some of the lessons learned

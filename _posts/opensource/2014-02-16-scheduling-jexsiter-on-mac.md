@@ -5,7 +5,6 @@ description: "Using OSX launchd to execute Jexsiter on a schedule"
 category: "opensource"
 tags: [osx, mac, jexsiter]
 ---
-{% include JB/setup %}
 
 # Resources distilled and preserved
 For much more detail check out the following:

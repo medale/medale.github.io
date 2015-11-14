@@ -3,7 +3,6 @@ layout: page
 title: Musik
 tagline: Ein Liedchen zum Silbernen Jubilaeum
 ---
-{% include JB/setup %}
 
 # Das Silberne Jubilaeum
 

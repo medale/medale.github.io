@@ -5,7 +5,6 @@ description: "Some new features of Eclipse Luna that I would like to use/remembe
 category: "eclipse"
 tags: ["eclipse","luna","keyboard","programming"]
 ---
-{% include JB/setup %}
 # Eclipse Luna Features to Try
 
 ## Split editors for large files

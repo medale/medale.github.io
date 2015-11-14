@@ -3,7 +3,6 @@ layout: page
 title: Data Science Research
 tagline: Continuous improvement through project, practices, self
 ---
-{% include JB/setup %}
 
 # Reading Agenda
 * [Data Community DC - Census data presentations](http://datacommunitydc.org/blog/2013/11/didc-meetup-review-the-us-census-bureau-pushes-data/)

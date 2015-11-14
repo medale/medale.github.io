@@ -5,7 +5,6 @@ description: "Thoughts on Continuous Self Improvement"
 category: "learning"
 tags: ["learning"]
 ---
-{% include JB/setup %}
 
 # Continuous Self Improvement For Software Developers
 

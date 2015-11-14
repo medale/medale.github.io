@@ -3,7 +3,6 @@ layout: page
 title: Links Repo
 tagline: Continuous improvement through project, practices, self
 ---
-{% include JB/setup %}
 
 # Big Data/Data Science
 

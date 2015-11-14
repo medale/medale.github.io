@@ -5,7 +5,6 @@ description: "Using Intel Android Emulator Acceleration under Ubuntu"
 category: "general"
 tags: [android, linux, setup]
 ---
-{% include JB/setup %}
 
 # Resource Site
 * [Intel Hardware Accelerator Site](http://software.intel.com/en-us/android/articles/speeding-up-the-android-emulator-on-intel-architecture)

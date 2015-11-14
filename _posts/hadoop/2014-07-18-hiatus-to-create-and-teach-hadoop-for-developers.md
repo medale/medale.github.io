@@ -5,7 +5,6 @@ description: "From February 2014 to teaching Hadoop For Developers for UMBC Trai
 category: "hadoop"
 tags: [hadoop,learning,teaching]
 ---
-{% include JB/setup %}
 
 In February 2014 I was approached by UMBC Training to see if I were interested in creating a Hadoop 2-based Hadoop
 for Developers class. I was a bit conflicted about the time commitment and relatively short timeline (teach first

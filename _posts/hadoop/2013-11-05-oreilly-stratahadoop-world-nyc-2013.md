@@ -5,7 +5,6 @@ description: "First impressions from the O'Reilly Strata/Hadoop World conference
 category: "hadoop"
 tags: [hadoop,conference,learning,networking]
 ---
-{% include JB/setup %}
 [O'Reilly's Strata/Hadoop World NYC 2013 Conference](http://strataconf.com/stratany2013/), just like its
 2012 predecessor, was a great learning and networking opportunity. Again, the conference was sold
 out and, due to its popularity, will move to the more spacious [glass-enclosed NYC Javits conference center](http://www.javitscenter.com/)

@@ -5,7 +5,6 @@ description: "First impressions on Martin Odersky's Functional Programming In Sc
 category: "scala"
 tags: ["learning", "mooc", "programming", "functional", "scala", "coursera-functional-programming", "spark"]
 ---
-{% include JB/setup %}
 
 Instead of using Scala, my focus over the last two years has been Hadoop with Java API and learning
 Python. I took [Martin Odersky's Functional Programming in Scala class from Coursera](https://www.coursera.org/course/progfun) in 2012

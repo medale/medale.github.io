@@ -55,4 +55,4 @@ Once done:
 
 ## YouTube
 Until verified, YouTube limits a user to 15 minute video
-length. After uploading the long video there was a link to verify identity. After upload the video was available on YouTube [here]((https://www.youtube.com/watch?v=WgqYn3RlWlI)).
+length. After uploading the long video there was a link to verify identity. After upload the video was available on YouTube [here](https://www.youtube.com/watch?v=WgqYn3RlWlI).

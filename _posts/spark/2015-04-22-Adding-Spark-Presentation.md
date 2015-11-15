@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adding Spark to Your Hadoop"
+title: "Presentation: Adding Spark to Your Hadoop"
 description: "Presentation to the Baltimore Hadoop User Meetup Group"
 category: "spark"
 tags: ["spark","docker", "presentation", "meetup"]

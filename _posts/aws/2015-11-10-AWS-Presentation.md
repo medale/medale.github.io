@@ -3,7 +3,7 @@ layout: post
 title: "Presentation: Amazon Web Services: Introduction, What's New & Java API"
 description: "Presentation to the Baltimore Washington Java Meetup Group"
 category: "aws"
-tags: ["aws","aws-sdk"]
+tags: ["aws","aws-sdk","presentation","meetup"]
 comments: true
 ---
 In 2013 I took the excellent Coursera [Introduction To Data Science](https://www.coursera.org/course/datasci)
@@ -26,8 +26,8 @@ Re:Invent 2015 conference for the
 Despite rainy weather and horrible traffic we had a great and enthusiastic
 turnout. Many thanks to Steve for organizing these meetups and pizza!
 Our local AWS team also turned out to show their support and donated some door 
-prizes. Excellent questions during the presentation were followed by lively 
-discussions afterwards. **Many thanks for all the kind feedback!**
+prizes. Many thanks also for their support! Excellent questions during the 
+presentation were followed by lively discussions afterwards. **Many thanks for all the kind feedback!**
 
 ##Materials
 

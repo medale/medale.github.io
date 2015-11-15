@@ -13,7 +13,7 @@ description: Continuous improvement through project, practices, self
 # Then, the 'url' is: http://yourname.github.io/projectname
 url: http://uebercomputing.com
 
-#
+
 ###################################
 # Jekyll configuration
 ####################################
@@ -21,6 +21,8 @@ url: http://uebercomputing.com
 markdown:    kramdown
 highlighter:  pygments
 excerpt_separator: <!--more-->
+
+comments: true
 
 kramdown:
   auto_ids: true
@@ -35,12 +37,12 @@ kramdown:
 ####################################
 #
 owner:
-  name: Markus Dale
+  name: M. Dale
   avatar: caveman.jpg 
   job: "Software Developer - Scala, Spark"
   bio: "" 
-  email: medale@acm.org
-  disqus-shortname:
+  email: medale at acm dot org
+  disqus-shortname: medale94
   twitter: medale94
   facebook: markus.dale.90
   google:

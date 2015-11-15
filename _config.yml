@@ -22,8 +22,6 @@ markdown:    kramdown
 highlighter:  pygments
 excerpt_separator: <!--more-->
 
-comments: true
-
 kramdown:
   auto_ids: true
   footnote_nr: 1
@@ -47,7 +45,7 @@ owner:
   facebook: markus.dale.90
   google:
     plus: medale
-    analytics:
+    analytics: UA-45184534-1
     verify:
     ad-client:
     ad-slot:

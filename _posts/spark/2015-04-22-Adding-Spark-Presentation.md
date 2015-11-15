@@ -4,6 +4,7 @@ title: "Adding Spark to Your Hadoop"
 description: "Presentation to the Baltimore Hadoop User Meetup Group"
 category: "spark"
 tags: ["spark","docker", "presentation", "meetup"]
+comments: true
 ---
 
 On April 22nd, 2015, I had the privilege of giving a presentation on

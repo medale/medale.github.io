@@ -29,7 +29,7 @@ I selected the following tools:
 ## Exporting PDF slides to PNG
 
 At first, I used Shutter to take screenshots of each slide but realized
-quickly that some automation was needed. [This AskUbuntu answer](pdf.txt:http://askubuntu.com/questions/50170/how-to-convert-pdf-to-image/50180#50180) provided the solution:
+quickly that some automation was needed. [This AskUbuntu answer](http://askubuntu.com/questions/50170/how-to-convert-pdf-to-image/50180#50180) provided the solution:
 
 {% highlight bash %}
 sudo apt-get install poppler-utils

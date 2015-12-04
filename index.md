@@ -35,3 +35,9 @@ tagline: Continuous improvement through project, practices, self
 * [Memory Pad](/memory.html)
 * [Musik](/musik/musik.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+### Social Networking
+* [On Github](http://github.com/medale)
+* [On LinkedIn](https://www.linkedin.com/in/medale94)
+* [On Twitter](https://twitter.com/medale94)
+* [Resume 2015](/MarkusDale.html)

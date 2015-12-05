@@ -40,4 +40,3 @@ tagline: Continuous improvement through project, practices, self
 * [On Github](http://github.com/medale)
 * [On LinkedIn](https://www.linkedin.com/in/medale94)
 * [On Twitter](https://twitter.com/medale94)
-* [Resume 2015](/MarkusDale.html)

@@ -31,6 +31,9 @@ Enter paste mode
     export MAVEN_OPTS="-Xmx2g -XX:MaxPermSize=512M -XX:ReservedCodeCacheSize=512m"
     mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=2.4.0 -DskipTests clean package
 
+## Other Spark Libraries
+* http://spark-packages.org/
+
 ## Scala - rename import
 
     import org.apache.spark.mllib.linalg.{Vector => SparkVector}

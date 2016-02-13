@@ -34,6 +34,7 @@ tagline: Continuous improvement through project, practices, self
 * [Links Repo](/links.html)
 * [Memory Pad](/memory.html)
 * [Musik](/musik/musik.html)
+* [Jekyll Tips](/jekyll.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 ### Social Networking

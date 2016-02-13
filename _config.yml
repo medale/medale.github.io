@@ -19,7 +19,7 @@ url: http://uebercomputing.com
 ####################################
 #
 markdown:    kramdown
-highlighter:  pygments
+highlighter:  rouge
 excerpt_separator: <!--more-->
 
 kramdown:

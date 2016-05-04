@@ -36,6 +36,7 @@ tagline: Continuous improvement through project, practices, self
 * [Musik](/musik/musik.html)
 * [Jekyll Tips](/jekyll.html)
 * [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+* [Quotes and Sayings](/QuotesAndSayings.html)
 
 ### Social Networking
 * [On Github](http://github.com/medale)

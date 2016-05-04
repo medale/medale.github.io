@@ -4,8 +4,8 @@
 	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
 	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
 ]>
-<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="100" height="100" viewBox="0 0 100 100"
-	 overflow="visible" enable-background="new 0 0 100 100" xml:space="preserve">
+<svg  version="1.1" id="Layer_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="100" height="100" viewBox="0 0 439 433"
+	 overflow="visible" enable-background="new 0 0 439 433" xml:space="preserve">
 <g>
 	<polygon fill-rule="evenodd" clip-rule="evenodd" points="15.929,455.41 33.679,455.41 33.679,460.256 21.979,460.256 
 		21.979,467.516 32.469,467.516 32.469,472.355 21.979,472.355 21.979,480.828 33.679,480.828 33.679,485.668 15.929,485.668 

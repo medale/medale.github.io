@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spark 2.0 Performance Improvements"
+title: "Presentation: Spark 2.0 Performance Improvements"
 description: "Presentation to the Apache Spark and Distributed Computing Maryland Meetup"
 category: "spark"
 tags: ["spark","tungsten","presentation","meetup"]

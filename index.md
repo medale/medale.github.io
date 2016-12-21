@@ -20,6 +20,7 @@ tagline: Continuous improvement through project, practices, self
 </ul>
 
 ## Some of my Github Projects
+* [A Little Course in Scala](https://github.com/medale/little-scala-course) - A hands-on tour of the Scala programming language
 * [Spark Mail - Tutorial for using Spark to process Enron Email dataset](https://github.com/medale/spark-mail)
 * [Spark Mail Docker image](https://github.com/medale/spark-mail-docker) - Docker image to accompany Spark Mail Tutorial (Spark 1.2.1 on Hadoop 2.6.0 with subset of Enron email in avro format)
 * [Extension Sorter](https://github.com/medale/extension-sorter) - sort files into new destination by their file extensions (configurable)

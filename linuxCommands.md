@@ -31,3 +31,13 @@ tagline: Useful Linux commands
     >/sbin/ifconfig - shows Bcast address, e.g. 192.168.1.255
     >ping -b 192.168.1.255 - shows other machines on local subnet
 
+# Applications
+
+## Slack
+
+### Reset hung Linux Slack client: 
+
+    cd ~/.config/Slack
+    rm -Rf SS
+    
+

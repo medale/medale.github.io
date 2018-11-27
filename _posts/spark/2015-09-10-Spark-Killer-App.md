@@ -16,7 +16,8 @@ the Scala API through use cases.
 Many thanks to Andrew Felix for organizing the meetup and pizza, Paris @ AOL
 for a fantastic space and support. Thanks to everyone who made it out!
 
-##Materials
+## Materials
+
 * [Slides](https://github.com/medale/presentations/blob/master/spark-scala-killer-app-2015/Spark-ScalaKillerApp.pdf)
 * Code available via:
 

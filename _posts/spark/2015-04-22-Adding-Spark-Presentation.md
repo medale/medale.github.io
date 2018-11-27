@@ -15,8 +15,7 @@ all the attendees!
 
 The presentation is [now available on YouTube](https://www.youtube.com/watch?v=WgqYn3RlWlI).
 
-The slides for the presentation are under the
-[Spark Mail GitHub Repository](https://github.com/medale/) under [presentation/AddSparkToYourHadoop.pdf](https://github.com/medale/presentations/blob/master/add-spark-to-your-hadoop-2015/AddSparkToYourHadoop.pdf).
+The slides for the presentation are at [AddSparkToYourHadoop.pdf](https://github.com/medale/presentations/blob/master/add-spark-to-your-hadoop-2015/AddSparkToYourHadoop.pdf).
 
 Instructions and the Dockerfile/scripts on how to obtain the Spark Mail
 Docker image used for the demo are [here](https://github.com/medale/spark-mail-docker).

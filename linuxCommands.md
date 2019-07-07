@@ -9,7 +9,7 @@ tagline: Useful Linux commands
 ## Determine 32 vs. 64-bit OS
     >file /sbin/init
     /sbin/init: ELF 64-bit LSB shared object, x86-64,...
-    
+
 ## Determine Ubuntu Version and Version Name
     >lsb_release -a
     Description:	Ubuntu 13.10
@@ -23,7 +23,7 @@ tagline: Useful Linux commands
     NAME="Ubuntu"
     VERSION="13.10, Saucy Salamander"
     ...
-    
+
 # Network
 
 ## Determine other machines on same local subnet
@@ -35,9 +35,72 @@ tagline: Useful Linux commands
 
 ## Slack
 
-### Reset hung Linux Slack client: 
+### Reset hung Linux Slack client:
 
     cd ~/.config/Slack
     rm -Rf SS
-    
 
+## Pandoc
+* Font sizes: from [https://texblog.org/2012/08/29/changing-the-font-size-in-latex/](https://texblog.org/2012/08/29/changing-the-font-size-in-latex/)
+     * \Huge
+     * \huge
+     * \LARGE
+     * \Large
+     * \large
+     * \normalsize (default)
+     * \small
+     * \footnotesize
+     * \scriptsize
+     * \tiny
+
+```bash
+pandoc in.md -o out.pdf
+pandoc in.md -o out.html
+
+# Updated for pandoc 2.4 - making slides
+DOCNAME=SparkDataEngineering
+pandoc -t beamer --pdf-engine=xelatex ${DOCNAME}.md -o ${DOCNAME}.pdf -V theme:metropolis  -V colortheme:default
+
+# Slides
+---
+header-includes:
+ - \usepackage{fvextra}
+ - \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+ - \usepackage{fontspec}
+ - \usepackage{setspace}
+title: Data Engineering with Apache Spark
+author: Markus Dale, medale@...
+date: May 2019
+---
+
+# Apache Spark: Data engineering for larger dataset (Vertical Scaling)
+
+![Beefed-up Server](graphics/VerticalScaling.png){height=80%}
+
+# Cluster Manager - Manage cores, memory, special capabilities
+
+![](graphics/ClusterManagers.png)
+
+# Data Science Mission
+
+\Large
+* ID malicious GitHub Pull Requests?
+
+# Anatomy of a Spark Application
+
+![](graphics/SparkApplication.png)
+\tiny Source: Apache Spark website
+
+# Hello, Spark World!
+
+\scriptsize
+scala (code block with three backticks)
+import org.apache.spark.sql.SparkSession
+...
+
+```
+
+## Open with default application 
+
+    xdg-open steps.html
+    xdg-open http://cnn.com

@@ -56,6 +56,7 @@ tagline: Useful Linux commands
 ```bash
 pandoc in.md -o out.pdf
 pandoc in.md -o out.html
+pandoc in.md -o out.html -s --metadata pagetitle="Out"
 
 # Updated for pandoc 2.4 - making slides
 DOCNAME=SparkDataEngineering
@@ -100,7 +101,7 @@ import org.apache.spark.sql.SparkSession
 
 ```
 
-## Open with default application 
+## Open with default application
 
     xdg-open steps.html
     xdg-open http://cnn.com

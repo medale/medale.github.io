@@ -13,3 +13,8 @@ Thumbs.db
 Gemfile.lock
 .sass-cache
 .sass-cache/*
+.DS_Store
+*.swp
+.sass-cache
+.jekyll-cache
+

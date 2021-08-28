@@ -97,22 +97,22 @@ Running the image with the bash command brings you to a shell prompt as root:
 Docker creates an internal IP address for the image we started. To determine
 this IP address we can either do this from the host machine:
 
-
-    sudo docker ps
-    > CONTAINER ID        IMAGE                      COMMAND                CREATED             STATUS              PORTS
-    > bb5cf832bd76        medale/spark-mail-docker:v1.2.1   "/etc/bootstrap.sh /   13 minutes ago      Up 13 minutes       0.0.0
-    sudo docker inspect --format="{{.NetworkSettings.IPAddress}}" bb5cf832bd76
-    > 172.17.0.71
-
+```
+sudo docker ps
+> CONTAINER ID        IMAGE                      COMMAND                CREATED             STATUS              PORTS
+> bb5cf832bd76        medale/spark-mail-docker:v1.2.1   "/etc/bootstrap.sh /   13 minutes ago      Up 13 minutes       0.0.0
+sudo docker inspect --format=".NetworkSettings.IPAddress" bb5cf832bd76
+> 172.17.0.71
+```
 
 Or we could run the following on the image container:
 
-
-    ifconfig
-    > eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:12  
-               inet addr:172.17.0.71  Bcast:0.0.0.0  Mask:255.255.0.0
-    ...
-
+```
+ifconfig
+> eth0      Link encap:Ethernet  HWaddr 02:42:AC:11:00:12  
+           inet addr:172.17.0.71  Bcast:0.0.0.0  Mask:255.255.0.0
+...
+```
 
 Now we can go to the Resource Manager from local browser on host:
 * http://172.17.0.71:8088/
@@ -196,7 +196,7 @@ without having to build the image locally:
 
 # Other useful Docker commands
 
-
+```
     # Show available images
     sudo docker images
     > REPOSITORY                 TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
@@ -215,7 +215,7 @@ without having to build the image locally:
 
     # Commit changes to an image
     sudo docker commit <container_id> medale/new_image
-
+```
 
 For background see [dockerimages](https://docs.docker.com/userguide/dockerimages/)
 and [Docker builder reference](https://docs.docker.com/reference/builder/).

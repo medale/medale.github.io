@@ -1,26 +1,15 @@
-#
-###################################
-# Site wide configuration
-####################################
-#
-title: Uebercomputing
-email: medale at acm dot org
-description: Continuous improvement through project, practices, self 
-# the base hostname & protocol for your site
-# If your project is placed in https://github.com/yourname/yourname.github.io at master branch
-# Then, the 'url' is: http://yourname.github.io
-# If your project is placed in another repository as a gh-pages branch, like: https://github.com/yourname/projectname
-# Then, the 'url' is: http://yourname.github.io/projectname
-url: http://uebercomputing.com
+name: Uebercomputing
+description: Continuous improvement through project, practices, self
+meta_description: "Continuous improvement through project, practices, self"
 
-
-###################################
-# Jekyll configuration
-####################################
-#
-markdown:    kramdown
-highlighter:  rouge
-excerpt_separator: <!--more-->
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /
+domain_name: "http://uebercomputing.com"
+google_analytics: "UA-45184534-1"
+plugins: [jekyll-paginate]
 
 kramdown:
   auto_ids: true
@@ -29,40 +18,9 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-#
-###################################
-# Site Owner configuration
-####################################
-#
-owner:
-  name: M. Dale
-  avatar: caveman.jpg 
-  job: "Software Developer - Scala, Spark"
-  bio: "" 
-  email: medale at acm dot org
-  disqus-shortname: uebercomputingcom
-  twitter: medale94
-  facebook: markus.dale.90
-  google:
-    plus: medale
-    analytics: UA-45184534-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: medale 
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: medale94 
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  codepen: #username
+# Details for the RSS feed generator
+url: "http://uebercomputing.com"
+author: "M. Dale"
+
+# Disqus config
+disqus-shortname: ""
